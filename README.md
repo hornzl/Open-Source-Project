@@ -70,9 +70,10 @@ Open Source Project top, ps, jobs, kill 명령어 조사
 더 다양한 정보 >> <https://veneas.tistory.com/entry/Linux-%EB%A6%AC%EB%88%85%EC%8A%A4-%EC%8B%9C%EA%B7%B8%EB%84%90-%EB%AA%85%EB%A0%B9%EC%96%B4%ED%94%84%EB%A1%9C%EC%84%B8%EC%8A%A4-%EC%A2%85%EB%A3%8C-kill>
 #### 주의할 점 : 강제로 종료하는 경우 프로세스가 작업을 정리하지 못할 수 있으므로 데이터 손실이 발생할 수 있다.
 
-| 명령어 | 옵션 |
-|:---:|:---:|
-| top | d,p,u ... |
-| ps | e, f, l, u, p ... |
-| jobs | l, p .. |
-| kill | s, l .. |
+## 요약
+| 명령어 | 정의 | 실행 방법 |
+|:---:|:---:|:---:|
+| top | CPU 사용률, 메모리 사용률, 실행 중인 프로세스 목록 등이 표시 | top [옵션] |
+| ps | 현재 실행 중인 프로세스 목록이 표시 | ps [옵션] |
+| jobs | 현재 쉘에서 실행 중인 백그라운드 작업의 목록 표시 | jobs [옵션] [작업번호] |
+| kill | 프로세스를 종료시키는 명령어 | kill [옵션] <프로세스 ID> |
