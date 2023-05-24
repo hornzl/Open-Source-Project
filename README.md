@@ -1,10 +1,6 @@
 # Open-Source-Project
-Open Source Project
+Open Source Project top, ps, jobs, kill 명령어 조사
 
-## Hello My Name is MINSEUNG KANG
-***My hakbun is 20192238 and third grade.
-
-**My major is Computer Engeneering.
 
 ---
 # 리눅스 top, ps, jobs, kill 명령어
